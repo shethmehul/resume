@@ -1,7 +1,83 @@
-<table>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #333;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #f9f9f9;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+      color: #007BFF;
+    }
+    header p {
+      margin: 5px 0;
+      font-size: 1.2em;
+    }
+    section {
+      margin-bottom: 20px;
+    }
+    section h2 {
+      font-size: 1.5em;
+      color: #007BFF;
+      border-bottom: 2px solid #007BFF;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+    .skills, .experience, .education {
+      list-style: none;
+      padding: 0;
+    }
+    .skills li, .experience li, .education li {
+      margin-bottom: 10px;
+    }
+    .experience h3, .education h3 {
+      margin: 0;
+      font-size: 1.2em;
+    }
+    .experience p, .education p {
+      margin: 5px 0;
+      font-size: 0.9em;
+      color: #555;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #777;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+      }
+      header h1 {
+        font-size: 1.5em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <table>
   <colgroup>
-    <col width="207" />
-    <col width="490" />
+    <col width="30%" />
+    <col width="70%" />
   </colgroup>
   <tbody>
     <tr>
@@ -10,7 +86,7 @@
         <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdSSnNT6Dc5S_8aIN4VSsa-K9kbWNxCL0jC91Dq_lHiFpVJGvQzjXSqsCdCxaXcIX46_B6G3jq_LSXxF12e_G3eSKosPmCsuJNKvJVZFkIL_hNLqIC9A6Zlk3qVc6wT6GNRPuuT?key=Z9C7A4Gc1zshY6beXlQYTA" width="209" height="208.06173375999157" />
       </td>
       <td>
-        <p style="color: rgb(125, 71, 1);">MEHUL SHETH</p>
+       <header> <h1>MEHUL SHETH</h1></header>
         <p>
           <strong style="color: rgb(64, 64, 64);">Performance &amp; Data Engineer + Architect Consultant</strong>
         </p>
@@ -55,4 +131,5 @@
     </tr>
     </tbody>
 </table>
-  
+</body>
+</html>
