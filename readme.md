@@ -1,7 +1,7 @@
 # Online Resume for Mehul Sheth
 This page has details of projects completed by Mehul and a downloadable resume.
 ####
-A simple HTML+CSS page hosted on Github Pages.
+A simple HTML+CSS page hosted on Github Pages: https://shethmehul.github.io/resume/
 ### Embeddings
 1. Bootstrap
 2. Bootstrap icons
